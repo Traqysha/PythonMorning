@@ -1,9 +1,16 @@
-num1 = int(input("Enter first number:"))
-num2 = int(input("Enter second number:"))
+Firstnumber = float(input("Enter first number:"))
+Secondnumber = float(input("Enter second number:"))
+Operator = input("Enter operator:")
 
-num1 = float(num1)
-num2 = float(num2)
+if Operator == '+':
+    print(Firstnumber+Secondnumber)
+elif Operator == '-':
+    print(Firstnumber-Secondnumber)
+elif Operator == '*':
+    print(Firstnumber*Secondnumber)
+elif Operator == '/':
+    print(Firstnumber/Secondnumber)
 
-sum = num1+num2
+Firstnumber = float(Firstnumber)
+Secondnumber = float(Secondnumber)
 
-print("Sum of",num1, "and",num2, "is",sum)
